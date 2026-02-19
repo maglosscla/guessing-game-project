@@ -11,7 +11,7 @@ while True:
         guess = int(input("Your guess: ")) #user inputs a number from 1 to 10 
         attempts += 1 # attemp tracker will be logged soon
         
-        if guess < secret: # if you guess 1 and the number is 5 then it print too low because of the fact you went under the value that's it
+        if guess < secret: # if you guess 1 and the number is 5 then it print too low because of the fact you went under the value
             print("Too low 📉")
         elif guess > secret: #if you guess 10 when the number is 1 you would have guessed too high and it would print a too high that's about it
             print("Too high 📈")
