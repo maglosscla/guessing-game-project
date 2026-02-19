@@ -16,9 +16,9 @@ while True:
         elif guess > secret: #if you guess 10 when the number is 1 you would have guessed too high and it would print a too high that's about it
             print("Too high 📈")
         else:
-            print(f"✅ Correct! You got it in {attempts} tries")
+            print(f"✅ Correct! You got it in {attempts} tries") # I don't need to explain all the print ones they're not needed to be taugh about
             print("That's how backend works: you send a request, I respond.")
             break
     except ValueError:
         print("Enter a number, genius.")
-"# Updated documentation" 
+
